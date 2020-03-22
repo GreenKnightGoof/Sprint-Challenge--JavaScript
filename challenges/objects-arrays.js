@@ -48,7 +48,7 @@ function makeDinoObject(name, diet, weight, length, period){
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log(dino1.weight);
+console.log();
 
 // What was the diet of a velociraptor?
 console.log();
