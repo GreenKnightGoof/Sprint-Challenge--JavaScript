@@ -86,7 +86,6 @@ const graduates = [
 Once you have the new array created, log the result. */
 const universities = [];
 universities.push(graduates.university);
-
 console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. This will be an array of strings.
@@ -125,7 +124,15 @@ const zooAnimals = [
 The zoos want to display both the scientific name and the animal name in front of the habitats. Populate the displayNames array with only the animal_name and scientific_name of each animal. displayNames will be an array of strings, and each string should follow this pattern: "Name: Jackal, asiatic, Scientific: Canis aureus."
 
 */
-const displayNames = [];
+function RQ1(zooAnimals){
+  const displayNames = [];
+  displayNames.forEach(arrItem =>{
+    displayNames.push `Name: ${animal_name} Scientific: ${scientific_name}`;
+  });
+  return displayNames;
+
+}
+
 console.log(displayNames);
 
 /* Request 2: .map()
