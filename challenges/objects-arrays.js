@@ -13,28 +13,28 @@ function makeDinoObject(name, diet, weight, length, period){
     length: length, 
     period: period,
   };
-  const dino1 = {
-    name: 'tyrannosaurus',
-    diet: 'carnivorous',
-    weight: '7000kg',
-    length: '12m', 
-    period: 'Late Cretaceous',
-  };
-  const dino2 = {
-    name: 'stegosaurus',
-    diet: 'herbivorous',
-    weight: '2000kg',
-    length: '9m', 
-    period: 'Late Jurassic',
-  };
-  const dino3 = {
-    name: 'velociraptor',
-    diet: 'carnivorous',
-    weight: '15kg',
-    length: '1.8m', 
-    period: 'Late Cretaceous',
-  };
 }
+    let dino = new Object(); 
+    dino.name = 'tyrannosaurus';
+    dino.diet = 'carnivorous';
+    dino.weight = '7000kg';
+    dino.length = '12m'; 
+    dino.period = 'Late Cretaceous';
+    dino.roar = 'RAWERSRARARWERSARARARRRR!';
+
+    let dino1 = new Object(); 
+    dino1.name = 'stegosaurus';
+    dino1.diet = 'herbivorous';
+    dino1.weight = '2000kg';
+    dino1.length = '9m'; 
+    dino1.period = 'Late Jurassic';
+
+    let dino2 = new Object(); 
+    dino2.name = 'velociraptor';
+    dino2.diet = 'carnivorous';
+    dino2.weight = '15kg';
+    dino2.length = '1.8m'; 
+    dino2.period = 'Late Cretaceous';
 
 
 
@@ -48,20 +48,20 @@ function makeDinoObject(name, diet, weight, length, period){
 // Using your dinosaur objects, log answers to these questions:
 
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(dino.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(dino2.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(dino1.length);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(dino.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(dino.roar);
 
 
 // ==== Arrays ====
